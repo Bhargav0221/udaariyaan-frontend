@@ -5,7 +5,7 @@ import Home from './route/Home'
 import Contact from './route/Contact'
 import Services from './route/Service'
 import About from './route/About'
-import Flight from './component/flight'
+import FlightBookingPage from './route/flight'
 function App() {
   return (
     <div>
@@ -16,7 +16,7 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/contact'element={<Contact/>}/>
       <Route path='/Services'element={<Services/>}/>
-      
+      <Route path='/flight' element={<FlightBookingPage/>}></Route>
      </Routes> 
     </div>
   )

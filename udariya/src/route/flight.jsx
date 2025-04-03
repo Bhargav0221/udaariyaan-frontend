@@ -1,12 +1,11 @@
-import React from 'react'
-import Flight from '../component/flight'
-function flight() {
+import React from 'react';
+import FlightBookingPage from'../component/FlightBookingPage'
+function App() {
   return (
     <div>
-      <Flight
-      url="https://images.unsplash.com/photo-1542296332-2e4473faf563?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+     <FlightBookingPage/>
     </div>
-  )
+  );
 }
 
-export default flight
+export default App;

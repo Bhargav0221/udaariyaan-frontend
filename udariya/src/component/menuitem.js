@@ -2,7 +2,12 @@
 
 export const menuitem=[
     
-    
+    {
+        title:"flight",
+        url:"/",
+        cname:"nav-links",
+        
+    },
     {
         title:"home",
         url:"/",
